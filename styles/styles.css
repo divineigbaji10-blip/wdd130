@@ -18,7 +18,7 @@ main img {
     height: auto;
     border: #333;
     padding: 0;
-    box-shadow: #eee;
+    box-shadow: 2px 2px 5px black;
 }
 
 aside img {

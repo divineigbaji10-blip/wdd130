@@ -16,6 +16,9 @@ aside {
 main img {
     width: 150px;
     height: auto;
+    border: #333;
+    padding: 0;
+    box-shadow: #eee;
 }
 
 aside img {

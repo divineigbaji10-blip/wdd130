@@ -17,11 +17,11 @@ aside {
 }
 
 main img {
-    width: 150px;
+    width: 130px;
     height: auto;
     border: #333;
-    padding: 0;
-    box-shadow: 2px 2px 5px black;
+    padding: 10;
+    box-shadow: 2px 2px 5px grey;
     float: right;
 }
 

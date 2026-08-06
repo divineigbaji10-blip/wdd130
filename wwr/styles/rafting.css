@@ -265,7 +265,7 @@ header,
     gap: 8px;
 }
 
-.newsletter {
+.newsletter-signup {
     grid-column: 2;
     display: flex;
     align-items: center;
@@ -285,4 +285,217 @@ header,
     cursor: pointer;
     border: 2px solid gray;
     border-radius: 6px;
+}
+
+.newsletter {
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 1px solid #333;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.newsletter-text {
+    padding-right: 20px;
+}
+
+.newsletter-text h2 {
+    margin-bottom: 30px;
+}
+
+.newsletter-text p {
+    margin: 0;
+}
+
+.newsletter form {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 12px;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.newsletter input {
+    padding: 8px;
+}
+
+.newsletter button {
+    padding: 12px 24px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.newsletter-button {
+    grid-column: 2;
+}
+
+.call-to-action {
+    padding: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.call-to-action a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.call-to-action h2 {
+    margin-bottom: 12px;
+}
+
+.call-to-action a:hover {
+    background-color: var(--accent1-color);
+}
+
+.call-to-action p {
+    margin-bottom: 20px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid #333;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.home-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.purpose,
+.offerings {
+    padding: 10px;
+}
+
+.purpose h3,
+.offerings h3 {
+    margin-bottom: 12px;
+}
+
+.hero p {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    right: 20px;
+    padding: 15px;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.trips-descriptions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 16px;
+}
+
+.trip-a,
+.trip-b,
+.trip-c {
+    border: 1px solid #333;
+    padding: 16px;
+    text-align: center;
+}
+
+.trip-a h2,
+.trip-b h2,
+.trip-c h2 {
+    margin: 12px 0;
+}
+
+.trip-a p,
+.trip-b p,
+.trip-c p {
+    line-height: 1.5;
+}
+
+.trip-a img,
+.trip-b img,
+.trip-c img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.trips-table {
+    margin-bottom: 16px;
+    border: 1px solid #333;
+    padding: 20px;
+}
+
+.trips-table h3 {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trips-table th,
+.trips-table td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: center;
+}
+
+.trips-table th {
+    background-color: var(--accent1-color);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.trip-a img,
+.trip-b img,
+.trip-c img,
+.home-grid img {
+    border-radius: 6px;
+}
+
+.trips-call {
+    border: 1px solid #333;
+    padding: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.trips-call h1 {
+    margin-bottom: 20px;
+}
+
+.trips-call p {
+    margin-bottom: 20px;
+}
+
+.trips-call a {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 12px 12px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--accent2-color);
+}
+
+.trips-call a:hover {
+    background-color: var(--accent1-color);
 }
